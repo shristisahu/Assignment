@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    transition: 1s;
+    margin-top: 60px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid blue;
+    padding: 3px;
+    object-fit: cover;
+    
+}
+
+.img:hover{
+    transform: scale(1.3);
+}
+
+.img1{
+    border-radius: 20px;
+    align-items: center;
+    width: 350px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 35px;
+    border-collapse:separate;
+    text-align: center;
+    font-family: serif;
+    font-size: 19px;
+}
+
+.social{
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+
+}
+
+&:hover img{
+    top: -1rem;
+}
+
+p:hover{
+    color: red;
+}
+
+p.bio:hover{
+background: lightblue;
+}
+
+.end{
+    margin-top: 80px;
+}
+
+/* For Tablet */
+@media screen and (max-width: 1366px){
+    .img1{
+        height: 600px;
+        width: 40%;
+    }
+
+}
+
+/* For Mobile Devices*/
+@media only screen and (max-width: 640px){
+   .img1{
+   height: 540px;
+   }
+
+}
