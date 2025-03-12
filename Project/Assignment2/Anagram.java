@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Anagram {
 
 	public static void main(String[] args) {
-		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter first String");
 		String input1 = sc.nextLine();
@@ -18,7 +17,5 @@ public class Anagram {
 		Arrays.sort(arr2);
 
 		System.out.println(Arrays.equals(arr, arr2));
-
 	}
-
 }
